@@ -44,6 +44,9 @@ export const colors = {
     grey6: {
       color: "$grey6",
     },
+    white: {
+      color: "$whiteFixed",
+    },
   },
 };
 
@@ -63,14 +66,14 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
+      brand1: "#FF5338",//background create experiences
+      brand2: "#FF8938",
       brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
+      brand4: "#0000AE",//background button name of tech
       grey1: "#212529",
-      grey2: "#495057",
-      grey3: "#CED3D7",
-      grey4: "#F1F3F5",
+      // grey2: "#495057",
+      // grey3: "#CED3D7",
+      grey4: "#0000AE", //background techs
       grey5: "#F8F9FA",
       grey6: "#DEE0FB",
       whiteFixed: "#ffffff",
